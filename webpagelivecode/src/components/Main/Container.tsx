@@ -1,10 +1,14 @@
 import * as S from "./style";
 
-const Container = () => {
+interface IContainer {
+    children: React.ReactNode;
+}
+
+const Container = ({ children }: IContainer) => {
     return (
         <>
         <S.StyledContainer>
-            
+            {children}
         </S.StyledContainer>
         </>
     );
