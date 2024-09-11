@@ -1,6 +1,6 @@
 import * as S from "./style";
-import Apple from "../../assets/Apple.png"
-import Android from "../../assets/Android.png"
+import Apple from "../../assets/apple.png";
+import Android from "../../assets/android.png";
 
 export const LeftSide = () => {
     return (
