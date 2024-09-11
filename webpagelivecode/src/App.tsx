@@ -1,8 +1,14 @@
+import Header from "./components/Header/Header";
+
 function App() {
   
   return (
     <>
-      <h1>Hello World</h1>
+      <Header/>
+      <main>
+        <section>Lado Esquerdo</section>
+        <section>Lado Direito</section>
+      </main>
     </>
   )
 }
